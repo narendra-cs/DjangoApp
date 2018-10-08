@@ -1,0 +1,48 @@
+
+.logo {
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.logo a {
+    display: block;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.round-img {
+  border-radius:50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-links ul {
+    padding: 0;
+    margin: 0;
+}
+
+.social-links ul li {
+    display: inline-block;
+}
+
+.social-links ul li a {
+    font-size: 24px;
+    color: #222222;
+    margin: 25px 10px;
+    display: block;
+}
+
+.contact-hader{
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
