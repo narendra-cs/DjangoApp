@@ -1,0 +1,11 @@
+[client]
+database = djangodb
+user = djangouser
+password = djangopassword
+host = mysqldb
+port = 3306
+
+[superuser]
+username = root 
+email = admin@djangoapp.com
+password = root@djangoapp

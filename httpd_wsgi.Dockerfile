@@ -15,9 +15,13 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
+ADD scripts/* /usr/bin/
 
 RUN chown -R :www-data /app \
-    && chmod -R 775 /app
+    && chmod -R 775 /app \
+    && chmod +x /usr/bin/*
+
+CMD ["django-start.sh"]
 
 ADD conf/httpd.conf /usr/local/apache2/conf
 ADD conf/httpd_override.conf .
